@@ -4,7 +4,7 @@ const solanaWeb3 = require('@solana/web3.js');
 module.exports = {
     id: "solana",
     setup: async () => {
-        const connection = new solanaWeb3.Connection(solanaWeb3.clusterApiUrl('mainnet-beta'));
+        const connection = new solanaWeb3.Connection(global.config.gateways.solanaRpc);
         return {
             async readTxById(id) {
                 const transaction = await connection.getParsedTransaction(id, "finalized");
