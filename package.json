@@ -1,6 +1,6 @@
 {
   "name": "glome-plugin-solana",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Glome plugin to fetch solana tx",
   "main": "index.js",
   "repository": "https://github.com/rareweave/glome-plugin-solana",
