@@ -1,6 +1,6 @@
 {
   "name": "glome-plugin-solana",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Glome plugin to fetch solana tx",
   "main": "index.js",
   "repository": "https://github.com/rareweave/glome-plugin-solana",
@@ -8,6 +8,7 @@
   "license": "GPL0",
   "private": false,
   "dependencies": {
-    "@solana/web3.js": "^1.78.0"
+    "@solana/web3.js": "^1.78.0",
+    "tweetnacl": "^1.0.3"
   }
 }
